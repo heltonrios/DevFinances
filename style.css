@@ -20,7 +20,7 @@ html {
 
 body {
   background-color: #f0f2f5;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .sr-only {
@@ -104,14 +104,23 @@ header {
   background: #2d4a22;
   width: 100%;
   height: 14.875rem;
-  padding: 2rem 0 10rem;
-  text-align: center;
+
+  padding: 2rem 2rem 10rem 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #logo {
   color: #fff;
   font-weight: 100;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.switch-button {
+  width: 24px;
+  cursor: pointer;
 }
 
 /* ======= BALANCE ========= */
